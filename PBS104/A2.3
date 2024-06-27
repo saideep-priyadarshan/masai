@@ -1,0 +1,14 @@
+BEGIN
+    READ N
+
+    IF N < 1 OR N >= 1000 THEN
+        PRINT "Input out of range"
+        EXIT
+    ENDIF
+
+    IF N % 3 == 0 THEN
+        PRINT "Yes"
+    ELSE
+        PRINT "No"
+    ENDIF
+END
