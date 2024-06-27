@@ -1,0 +1,16 @@
+BEGIN
+    READ fuel, distance
+
+    IF fuel >= 1000 OR distance >= 1000 THEN
+        PRINT "Input out of range"
+        EXIT
+    ENDIF
+
+    required = fuel * distance
+
+    IF required > 50 THEN
+        PRINT "Enough"
+    ELSE
+        PRINT "Go On"
+    ENDIF
+END
