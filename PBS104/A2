@@ -1,0 +1,21 @@
+BEGIN
+    READ num1, num2
+
+    IF num1 > num2 THEN
+        PRINT "true"
+    ELSE
+        PRINT "false"
+    ENDIF
+
+    IF num1 < num2 THEN
+        PRINT "true"
+    ELSE
+        PRINT "false"
+    ENDIF
+
+    IF num1 == num2 THEN
+        PRINT "true"
+    ELSE
+        PRINT "false"
+    ENDIF
+END
