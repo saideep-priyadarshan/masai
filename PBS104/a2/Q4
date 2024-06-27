@@ -1,0 +1,16 @@
+BEGIN
+    READ distance, time
+
+    IF distance >= 1000 OR time >= 5 THEN
+        PRINT "Input out of range"
+        EXIT
+    ENDIF
+
+    speed = distance / time
+
+    IF speed > 40 THEN
+        PRINT "Apply Brake"
+    ELSE
+        PRINT "Keep Going"
+    ENDIF
+END
