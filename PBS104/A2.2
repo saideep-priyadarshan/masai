@@ -1,0 +1,26 @@
+BEGIN
+    // Input
+    READ L1, B1, L2, B2
+
+    // Calculate areas
+    area1 = L1 * B1
+    area2 = L2 * B2
+
+    // Calculate perimeters
+    perimeter1 = 2 * (L1 + B1)
+    perimeter2 = 2 * (L2 + B2)
+
+    // Compare areas
+    IF area1 > area2 THEN
+        PRINT "true"
+    ELSE
+        PRINT "false"
+    ENDIF
+
+    // Compare perimeters
+    IF perimeter1 > perimeter2 THEN
+        PRINT "true"
+    ELSE
+        PRINT "false"
+    ENDIF
+END
